@@ -1,0 +1,210 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+  <meta name=viewport content="width=800">
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    
+    a {
+      color: #1772d0;
+      text-decoration: none;
+    }
+    
+    a:focus,
+    a:hover {
+      color: #f09228;
+      text-decoration: none;
+    }
+    
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px
+    }
+    
+    strong {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+    
+    heading {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 22px;
+    }
+    
+    papertitle {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 700
+    }
+    
+    name {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 32px;
+    }
+    
+    .one {
+      width: 160px;
+      height: 160px;
+      position: relative;
+    }
+    
+    .two {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+    
+    .fade {
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+    
+    span.highlight {
+      background-color: #ffffd0;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="images/smile.png">
+  <title>Yan Hao</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="65%" valign="middle">
+              <p align="center">
+                <name>Yan Hao</name>
+              </p>
+              <p>I'm Yan Hao, an undergraduate in Computer Science at <a href="https://acm.sjtu.edu.cn/home"> ACM Honors Class, Zhiyuan College</a>, Shanghai Jiao Tong University (SJTU). I am a visiting student at UC Berkeley, advised by Dr. <a href="https://www.yf.io/"> Fisher Yu</a> and Prof. <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>. Before that, I am doing research in 3D vision, advised by Professor Cewu Lu, <a href="http://mvig.sjtu.edu.cn/">MVIG</a>.
+              <p>
+
+                I am interested in computer vision, especially 3D vision combined with robotics. I am a student who dreams of having an academic life and plans to apply for Ph.D. in 2020. Please feel free to contact me.
+              </p>
+
+              <p align=center>
+                <a href="mailto:honeyhaoyan@sjtu.edu.cn">Email</a> &nbsp/&nbsp
+<!--                 <a href="data/JonBarron-CV.pdf">CV</a> &nbsp/&nbsp -->
+<!--                 <a href="data/JonBarron-bio.txt">Biography</a> &nbsp/&nbsp -->
+                <a href="https://github.com/honeyhaoyan">Github</a> &nbsp/&nbsp
+
+                <a href=./YanHao_CV.pdf>CV</a> 
+<!--                 <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Google Scholar</a> &nbsp/&nbsp -->
+<!--                 <a href="http://www.linkedin.com/in/jonathanbarron/"> LinkedIn </a> -->
+              </p>
+            </td>
+            <td width="35%">
+              <img width="90%" src="images/hy1.jpg">
+            </td>
+          </tr>
+        </table>
+
+        <!-- news -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>News</heading>
+              <p>
+                <strong>I am applying for Ph.D in 2020. Please feel free to contact me!</strong>
+              </p>
+              <p>
+                2019.07: Join Berkeley DeepDrive & BAIR lab as a visiting student!
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Research</heading>
+<!--               <p>
+                I'm interested in computer vision, machine learning, statistics, optimization, image processing, virtual reality, and computational photography. Much of my research is about inferring the physical world (shape, depth, motion, paint, light, colors, etc) from images. I have also worked in astronomy and biology. Representative papers are <span class="highlight">highlighted</span>.
+              </p> -->
+            </td>
+          </tr>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr onmouseout="hake_stop()" onmouseover="hake_start()">
+            <td width="25%">
+              <img width=100% src='images/objectness.png'>
+            </td>
+            <td valign="middle" width="75%">
+                <papertitle>3D Objectness Estimation via Bottom-up Regret Grouping</papertitle>
+              <br>Zelin Ye, <strong>Yan Hao</strong>, Liang Xu, Rui Zhu, 
+              <a href="http://mvig.sjtu.edu.cn/">Cewu Lu</a>
+              <br>
+              We propose a robust 3D objectness estimation method in a bottom-up manner, i.e. first over-segment scene pointclouds  and  then  group  them  iteratively  with  a  novel  regret  mechanism  to  withdraw  incorrect  groupings.
+              <br>
+              <em>In submission.</em>
+              <br>
+            </td>
+          </tr>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr onmouseout="hake_stop()" onmouseover="hake_start()">
+            <td width="25%">
+              <img width=100% src='images/pal_net.png'>  
+            </td>
+            <td valign="middle" width="75%">
+                <papertitle>PAL-Net: Predicate-Aware Learning for Scene Graph Generation</papertitle>
+              <br>Liang Xu, Yong-Lu Li, Minyang Chen, <strong>Yan Hao</strong>, 
+              <a href="http://mvig.sjtu.edu.cn/">Cewu Lu</a>
+              <br>
+              Our proposed PAL-Net has two ingredients for scene graph generation.  First we introduce a novel embedding loss for translation embedding in a metric learning manner. Then we take predicates as conditions for contextualmodeling to alleviate noise.
+              <br>
+              <em>In submission.</em>
+              <br>
+            </td>
+          </tr>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr onmouseout="unprocessing_stop()" onmouseover="unprocessing_start()">
+            <td width="25%">
+              <img width=100% src='images/mva.jpg'>
+            </td>
+            <td valign="middle" width="75%">
+              <a href="http://www.mva-org.jp/Proceedings/2019/papers/05-20.pdf">
+                <papertitle>Visual Rhythm Prediction with Feature-Aligned Network</papertitle>
+              </a>
+              <br>Yutong Xie, Haiyang Wang, <strong>Yan Hao</strong>, Zihao Xu
+              <br>
+              The paper proposed a data-driven visual rhythm prediction method, in which several visual features are extractedand then fed into an end-to-end neural network to predict the visual onsets.
+              <br>
+              <em>MVA</em>, 2019 &nbsp
+              <br>
+            </td>
+          </tr>
+        </table>
+
+        <!-- <br><br><br> -->
+        <!-- <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=c0c0c0&w=350&t=tt&d=EJG7xYMEBwtNsq0qbwK5FjnjQTTc0vTFcQPreGILEBk&co=ffffff&ct=000000&cmo=3acc3a&cmn=ff5353'></script> -->
+
+        <br><br>
+        <p align="right">
+        <a href="https://jonbarron.info">Thanks for the awesome design!</a>
+        </p>
+
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
